@@ -35,18 +35,20 @@ Upon clicking the **"Predict"** button, the app uses the Logistic Regression mod
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/diabetes-prediction-app.git
-
+git clone https://github.com/your-username/diabetes-prediction-app.git 
+```
 Navigate into the project directory:
+
 ```bash
 cd diabetes-prediction-app
-
+```
 ```bash
 pip install -r requirements.txt
-
+```
 Run the Streamlit app:
 ```bash
 streamlit run app.py
+```
 Open your browser at the displayed local URL to interact with the app.
 
 ## Requirements
