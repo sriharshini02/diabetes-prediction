@@ -52,14 +52,22 @@ streamlit run app.py
 Open your browser at the displayed local URL to interact with the app.
 
 ## Requirements
+
 Python 3.x
+
 Streamlit
+
 Scikit-learn
+
 Numpy
+
 Joblib
-Model
+
+# Model:
 The Logistic Regression model used in this app has been fine-tuned using GridSearchCV with the following parameters:
 
 C: [0.1, 1, 10]
+
 solver: ['liblinear', 'lbfgs']
+
 The model has been trained on the Pima Indians Diabetes Dataset, which contains medical records of women with a family history of diabetes.
